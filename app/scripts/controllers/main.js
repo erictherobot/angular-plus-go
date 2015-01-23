@@ -5,6 +5,12 @@ angular.module('myApp')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'Bootstrap',
+      'Yeoman',
+      'Go',
+      'Grunt',
+      'Sass',
+      '+ More..'
     ];
   });
