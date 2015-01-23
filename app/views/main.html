@@ -1,9 +1,15 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+<div ng-include src="'views/partials/navbar.html'"></div>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Why Hello! Angular + Go</h1>
+    <p>You now have</p>
+    <ul>
+        <li ng-repeat="thing in awesomeThings">{{thing}}</li>
+    </ul>
+    <p>installed.</p>
+    <h3>Enjoy coding!</h3>
+  </div>
 </div>
+
+<div ng-include src="'views/partials/footer.html'"></div>
