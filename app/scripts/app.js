@@ -21,5 +21,33 @@ angular.module('myApp', ['ui.router'])
       views: {
         '@': { templateUrl: 'views/main.html', controller: 'MainCtrl' }
       }
+    })
+    .state('about', {
+      url: '/about',
+      parent: 'root',
+      views: {
+        '@': { templateUrl: 'views/about.html', controller: 'AboutCtrl' }
+      }
+    })
+    .state('contact', {
+      url: '/contact',
+      parent: 'root',
+      views: {
+        '@': { templateUrl: 'views/contact.html', controller: 'ContactCtrl' }
+      }
+    })
+    .state('signin', {
+      url: '/signin',
+      parent: 'root',
+      views: {
+        '@': { templateUrl: 'views/signin.html', controller: 'SigninCtrl' }
+      }
+    })
+    .state('signup', {
+      url: '/signup',
+      parent: 'root',
+      views: {
+        '@': { templateUrl: 'views/signup.html', controller: 'SignupCtrl' }
+      }
     });
 });
