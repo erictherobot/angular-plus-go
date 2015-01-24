@@ -78,7 +78,7 @@ func main() {
 
 	// Drop Database
 	if IsDrop {
-		err = session.DB("test").DropDatabase()
+		err = session.DB("golang-app").DropDatabase()
 		if err != nil {
 			panic(err)
 		}
