@@ -11,6 +11,7 @@ angular.module('myApp')
       'Yeoman',
       'Go',
       'Grunt',
+      'MongoDB',
       'Sass',
       '+ More..'
     ];
