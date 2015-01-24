@@ -3,7 +3,7 @@
 describe('Controller: MyrouteCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('myApp'));
+  beforeEach(module('angularPlusGoApp'));
 
   var MyrouteCtrl,
     scope;

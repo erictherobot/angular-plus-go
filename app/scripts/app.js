@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', ['ui.router'])
+angular.module('angularPlusGoApp', ['ui.router'])
 .config(function ($stateProvider, $locationProvider, $httpProvider) {
 
   $locationProvider.html5Mode(true);
@@ -50,4 +50,9 @@ angular.module('myApp', ['ui.router'])
         '@': { templateUrl: 'views/signup.html', controller: 'SignupCtrl' }
       }
     });
-});
+})
+
+.run(['$state', '$stateParams',
+    function($state, $stateParams) {
+        //this solves page refresh and getting back to state
+}]);
