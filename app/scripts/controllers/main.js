@@ -5,6 +5,7 @@ angular.module('myApp')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
+      'Livereload',
       'Karma',
       'Bootstrap',
       'Yeoman',
